@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-5 | Assignment</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        table tr:nth-of-type(2n+1){
+            background-color: lightgray;
+        }
+        table td{
+            padding: 10px;
+        } 
+
+    </style>
+</head>
+<body>
+    <h2 align="center"><u>Question-1</u></h2>
+    <h2> (1) What are the new tags added in HTML5?</h2>
+    <p>HTML5 is an upgraded version of HTML 4.01. New elements are added in HTML5 to write easy and fast code to create complex, dynamic, engaging, and effective websites. These new elements add advanced functional features, improvised page layouts, and other improvements. The commonly used new HTML5 tags are &lt;figure&gt;,  &lt;article&gt;, &lt;header&gt;,  &lt;main&gt;, &lt;footer&gt;,  &lt;nav&gt;, and  &lt;section&gt;.</p>
+        <h3>HTML5 New Tags</h3>
+        <table border="1" cellspacing="0" cellpadding="5">
+            <tbody><tr>
+            <th>Index</th>
+            <th>Semantic Tag</th>
+            <th>Description</th>
+            </tr>
+            <tr>
+            <td>1.</td>
+            <td>&lt;article&gt;</td>
+            <td>Defines an article</td>
+            </tr>
+            <tr>
+            <td>2.</td>
+            <td>&lt;aside&gt;</td>
+            <td>Defines content aside from the page content</td>
+            </tr>
+            <tr>
+            <td>3.</td>
+            <td>&lt;details&gt;</td>
+            <td>Defines additional details that the user can view or hide</td>
+            </tr>
+            <tr>
+            <td>4.</td>
+            <td>&lt;figcaption&gt;</td>
+            <td>Defines a caption for a &lt;figure&gt; element</td>
+            </tr>
+            <tr>
+            <td>5.</td>
+            <td>&lt;figure&gt;</td>
+            <td>Specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.</td>
+            </tr>
+            <tr>
+            <td>6.</td>
+            <td>&lt;footer&gt;</td>
+            <td>Defines a footer for a document or section</td>
+            </tr>
+            <tr>
+            <td>7.</td>
+            <td>&lt;header&gt;</td>
+            <td>Specifies a header for a document or section</td>
+            </tr>
+            <tr>
+            <td>8.</td>
+            <td>&lt;main&gt;</td>
+            <td>Specifies the main content of a document</td>
+            </tr>
+            <tr>
+            <td>9.</td>
+            <td>&lt;mark&gt;</td>
+            <td>Defines marked/highlighted text</td>
+            </tr>
+            <tr>
+            <td>10.</td>
+            <td>&lt;nav&gt;</td>
+            <td>Defines navigation links</td>
+            </tr>
+            <tr>
+            <td>11.</td>
+            <td>&lt;section&gt;</td>
+            <td>Defines a section in a document</td>
+            </tr>
+            <tr>
+            <td>12.</td>
+            <td>&lt;summary&gt;</td>
+            <td>Defines a visible heading for a &lt;details&gt; element</td>
+            </tr>
+            <tr>
+            <td>13.</td>
+            <td>&lt;time&gt;</td>
+            <td>Defines a date/time</td>
+            </tr>
+            </tbody></table>
+
+
+        <h2 align="center"><u>Question-2</u></h2>
+    <h2> (2) How to embed audio and video in a webpage?</h2>
+    <h3>To embed audio</h3>
+    <p>To embed audio in HTML, we use the &lt;audio&gt; tag. Before HTML5, audio cannot be added to web pages in the Internet Explorer era. To play audio, we used web plugins like Flash. After the release of HTML5, it is possible. This tag supports Chrome, Firefox, Safari, Opera, and Edge in three audio formats – MP3, WAV, OGG. Only Safari browser doesn’t support OGG audio format.</p>
+    <h2>Syntex:</h2>
+    &lt;audio&gt; <br>
+         &lt;source src="file_name" type="audio_file_type"&gt; <br>
+    &lt;/audio&gt;
+    <p>To embed video</p>
+    <p>To embed video in HTML, we use the &lt;video&gt; tag. It contains one or more video sources at a time using <source> tag. It supports MP4, WebM, and Ogg in all modern browsers. Only Ogg video format doesn’t support in Safari browser. </p>
+        <h2>Syntex:</h2>
+        &lt;video&gt; <br>
+            &lt;source src="file_name" type="video_file_type"&gt; <br>
+        &lt;/video&gt; <br> <br>
+
+        <h2 align="center"><u>Question-3</u></h2>
+        <h2>(3) Semantic element in HTML5? </h2>
+        <p>Semantic elements are one of the most significant introductions in HTML5. In the previous versions of HTML, the generic &lt;div> tag with an id or class attribute was used for structuring a web page. For example, for defining sidebars, footers, menu or other structural blocks, the &lt;div&gt; tag was used with the corresponding meaning (div class="footer").</p>
+        <p>Semantic elements in HTML have intrinsic meaning and convey that meaning both to the browser and the developer. They clearly define what kind of content they contain (for example, the &lt;footer> tag is used instead of &lt;div id="footer">).</p> <br> <br>
+
+        
+        <h2 align="center"><u>Question-4</u></h2>
+        <h2>(4) Canvas and SVG tags </h2>
+        <h3>Canvas tag:</h3>
+        <h3>Syntex:</h3>
+        &lt;canvas id="myCanvas"> <br>
+            ... <br>
+            &lt;/canvas> <br><br>
+
+            <h3>SVG tag:</h3>
+            <h3>Syntex:</h3>
+            &lt;svg id= "svgelem"  xmlns = "http://www.w3.org/2000/svg"> <br>
+                ...    <br>
+            &lt;/svg>
+
+</body>
+</html>
